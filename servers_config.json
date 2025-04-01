@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+      "get_db_data": {
+        "command": "uv",
+        "args": ["run", "--with", "mcp", "mcp", "run", "db.py"]
+      },
+      "get_web_data": {
+        "command": "uv",
+        "args": ["run", "--with", "mcp", "mcp", "run", "web.py"]
+      }
+    }
+  }
